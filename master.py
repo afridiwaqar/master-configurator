@@ -90,7 +90,6 @@ if args.all:
 
 	search_list = str(conf_index_str).split(',')
 	module_conf_path = total_return[1]
-	
 #	confs_avail_a, module_conf_path, confignames = available_confs()
 	
 	a = str(set(confs_sys) & set(confs_avail))
